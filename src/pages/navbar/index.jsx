@@ -8,7 +8,7 @@ const Navbar = () => {
       <h3>React Projects</h3>
       <ul className="nav-list">
         <li className="nav-item">
-          <NavLink>To -Do List</NavLink>
+          <NavLink to="/todo"> To -Do List</NavLink>
         </li>
         <li className="nav-item">
           <NavLink>Digital Clock</NavLink>
