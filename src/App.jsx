@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from './pages/navbar'
+import { BrowserRouter } from 'react-router-dom'
+import PageRoutes from './pages/routes'
 
 const App = () => {
   return (
-    <div>App</div>
+    <BrowserRouter>
+    <div>
+      <Navbar />
+      <PageRoutes />
+    </div>
+    </BrowserRouter>
   )
 }
 

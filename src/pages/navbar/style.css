@@ -1,0 +1,12 @@
+.navbar  .nav-list{
+    display: inline-block;
+    margin: 0;
+}
+
+.navbar .nav-item {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    font-family: cursive;
+    font-weight: 600;
+}
