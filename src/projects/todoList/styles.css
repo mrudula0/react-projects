@@ -1,0 +1,23 @@
+.inpp{
+    padding: 8px;
+ 
+}
+.btn{
+    padding: 8px;
+    border-radius: 45%;
+    background-color: #a7425c;
+    color: white;
+}
+table{
+    margin-top: 10px;
+}
+.del-btn{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.update-btn{
+    background-color: rgb(92, 196, 92);
+    color: white;
+    padding: 5px;
+}
