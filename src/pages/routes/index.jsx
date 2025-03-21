@@ -6,6 +6,7 @@ import DigitalClock from '../../projects/DigtalClock'
 import StopWatch from '../../projects/StopWatch'
 import Calculator from '../../projects/Calculator'
 import SearchBox from '../../projects/searchBar'
+import PasswordGenerator from '../../projects/passwordGenerator'
 const PageRoutes = () => {
   return (
     <Routes>
@@ -15,6 +16,7 @@ const PageRoutes = () => {
         <Route path="/stopwatch"  element={<StopWatch />}/>
         <Route path="/cal"  element={<Calculator />}/>
         <Route path="/searchbox"  element={<SearchBox />}/>
+        <Route path="/password-generator"  element={<PasswordGenerator />}/>
 
         
     </Routes>
