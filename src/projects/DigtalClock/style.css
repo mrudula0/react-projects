@@ -1,0 +1,17 @@
+/* DigitalClock.css */
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Arial", sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
