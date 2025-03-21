@@ -8,16 +8,19 @@ const Navbar = () => {
       <h3>React Projects</h3>
       <ul className="nav-list">
         <li className="nav-item">
-          <NavLink to="/todo"> To -Do List</NavLink>
+          <NavLink to="/todo" style={{textDecoration:"none"}}> To -Do List</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink>Digital Clock</NavLink>
+          <NavLink to="/digitalclock" style={{textDecoration:"none"}}>Digital Clock</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink>StopWatch</NavLink>
+          <NavLink to="/stopwatch" style={{textDecoration:"none"}}>StopWatch</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink>Calculator</NavLink>
+          <NavLink to="/cal" style={{textDecoration:"none"}}>Calculator</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/searchbox" style={{textDecoration:"none"}}>SearchBar</NavLink>
         </li>
       </ul>
     </nav>
