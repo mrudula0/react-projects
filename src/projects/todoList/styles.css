@@ -2,7 +2,7 @@
     padding: 8px;
  
 }
-.btn{
+.btns{
     padding: 8px;
     border-radius: 45%;
     background-color: #a7425c;
@@ -11,12 +11,12 @@
 table{
     margin-top: 10px;
 }
-.del-btn{
+.del-btns{
     background-color: red;
     color: white;
     padding: 5px;
 }
-.update-btn{
+.update-btns{
     background-color: rgb(92, 196, 92);
     color: white;
     padding: 5px;

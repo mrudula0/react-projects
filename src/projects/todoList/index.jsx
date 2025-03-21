@@ -48,13 +48,13 @@ const TodoList = () => {
           onChange={handleInput}
         />
 
-        <button onClick={edit ? handleSave : handleAdd} className="btn">
+        <button onClick={edit ? handleSave : handleAdd} className="btns">
           {edit ? "UPDATE" : "ADD"}
         </button>
       </div>
       <div>
         {
-          newTodo && newTodo.length > 0 && 
+         newTodo.length > 0 && 
        
         <table border={1}>
           <tbody>
@@ -70,7 +70,7 @@ const TodoList = () => {
                 <td>
                   <button
                     onClick={() => handleDel(item.id)}
-                    className="del-btn"
+                    className="del-btns"
                   >
                     Delete
                   </button>
@@ -78,7 +78,7 @@ const TodoList = () => {
                 <td>
                   <button
                     onClick={() => handleUpdateInfo(item.id)}
-                    className="update-btn"
+                    className="update-btns"
                   >
                     Update
                   </button>
