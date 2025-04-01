@@ -1,0 +1,10 @@
+.otp-input .input-box {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+.otp-input {
+    text-align: center;
+}

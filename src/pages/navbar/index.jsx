@@ -25,6 +25,9 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink to="/password-generator" style={{textDecoration:"none"}}>Password-Generator</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink to="/otp" >OTP</NavLink>
+        </li>
       </ul>
     </nav>
   );
