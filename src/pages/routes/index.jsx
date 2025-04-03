@@ -8,6 +8,8 @@ import Calculator from '../../projects/Calculator'
 import SearchBox from '../../projects/searchBar'
 import PasswordGenerator from '../../projects/passwordGenerator'
 import OtpInput from '../../projects/OtpGenerator'
+import StarRating from '../../projects/StarRating'
+import TabsMain from '../../projects/TabsComponent/TabsMain'
 const PageRoutes = () => {
   return (
     <Routes>
@@ -19,6 +21,8 @@ const PageRoutes = () => {
         <Route path="/searchbox"  element={<SearchBox />}/>
         <Route path="/password-generator"  element={<PasswordGenerator />}/>
         <Route path="/otp"  element={<OtpInput />}/>
+        <Route path="/starrating"  element={<StarRating />}/>
+        <Route path="/tabs"  element={<TabsMain />}/>
 
         
     </Routes>

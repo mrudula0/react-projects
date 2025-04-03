@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './style.css'
+import "./style.css";
 
 const Navbar = () => {
   return (
@@ -8,25 +8,44 @@ const Navbar = () => {
       <h3>React Projects</h3>
       <ul className="nav-list">
         <li className="nav-item">
-          <NavLink to="/todo" style={{textDecoration:"none"}}> To -Do List</NavLink>
+          <NavLink to="/todo" style={{ textDecoration: "none" }}>
+            {" "}
+            To -Do List
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/digitalclock" style={{textDecoration:"none"}}>Digital Clock</NavLink>
+          <NavLink to="/digitalclock" style={{ textDecoration: "none" }}>
+            Digital Clock
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/stopwatch" style={{textDecoration:"none"}}>StopWatch</NavLink>
+          <NavLink to="/stopwatch" style={{ textDecoration: "none" }}>
+            StopWatch
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/cal" style={{textDecoration:"none"}}>Calculator</NavLink>
+          <NavLink to="/cal" style={{ textDecoration: "none" }}>
+            Calculator
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/searchbox" style={{textDecoration:"none"}}>SearchBar</NavLink>
+          <NavLink to="/searchbox" style={{ textDecoration: "none" }}>
+            SearchBar
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/password-generator" style={{textDecoration:"none"}}>Password-Generator</NavLink>
+          <NavLink to="/password-generator" style={{ textDecoration: "none" }}>
+            Password-Generator
+          </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/otp" >OTP</NavLink>
+          <NavLink to="/otp">OTP</NavLink>
+        </li>{" "}
+        <li className="nav-item">
+          <NavLink to="/starrating">Star Rating</NavLink>
+        </li>{" "}
+        <li className="nav-item">
+          <NavLink to="/tabs">TabsComponent</NavLink>
         </li>
       </ul>
     </nav>
